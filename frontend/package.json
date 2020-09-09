@@ -1,0 +1,43 @@
+{
+  "name": "zjubca-bounty",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "eosjs": "^16.0.9",
+    "process": "^0.11.10",
+    "react": "^16.6.3",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.6.3",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.8",
+    "scatterjs-core": "^2.7.16",
+    "scatterjs-plugin-eosjs": "^1.5.1",
+    "zjubca-scatterjs-core": "^1.0.5",
+    "zjubca-scatterjs-plugin-eosjs": "^1.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build && cp CNAME build/CNAME",
+    "deploy": "gh-pages -d build"
+  },
+  "proxy": "https://d.apicloud.com/mcm/api",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/helper-remap-async-to-generator": "^7.1.0",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "gh-pages": "^2.0.1"
+  }
+}
